@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Rubik+Storm&display=swap');
+
+.main-container {
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+}
+.banner {
+   background-image: url("../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg")
+}
+.nav-bar {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 10vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg");
+   background-repeat: no-repeat;
+}
+   .logo {
+    color: white;
+    font-size: 28px;
+}
+ span {
+   color:#ea1538; 
+   text-transform: capitalize;
+ }
+
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+ }
+
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+ }
+
+ button {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+
+ }
+ button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+
+ }
+
+
+ /* Hero Area */
+
+ 
+ .banner {
+   background: white;
+  height: 330px;
+  background-image: url("../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:  10px 0;
+ }
+
+ .hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_6427.jpg");
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 80%;
+   left: 60%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+
+
+ .container {  
+   margin-right: 10px;
+   display: grid;
+   height: 1250px;
+   grid-template-columns: 0.4fr 1.6fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 5px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "My work My work"
+     "About Me About Me"
+     "contact Me contact Me";
+ }
+
+ .myWork-ctn {
+   color:black;
+   grid-area: My work;
+   background-image: white;
+ }
+
+ .aboutMe-ctn {
+   color: black;
+   grid-area: About Me;
+   background-image:white;
+   height: 500px;
+ }
+ .contactMe {
+   color: black;
+   grid-area: contact Me;
+   background-image: white;
+
+ }
+ 
+ .secondGrid {
+  display: grid; 
+  height: 80vh;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  gap: 5px 10px; 
+  grid-template-areas: 
+    "Work1 Work1"
+    "Work2 Work3"
+}
+ 
+#work1 {
+   grid-area: Work1;
+   background-image: url("../images/istockphoto-1332167985-170667a.jpg");
+  
+}
+
+#work2 {
+   grid-area: Work2;
+   background-image: url("../images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+   width: 100%;
+   height: 100%;
+   
+}
+#work3 {
+   grid-area: Work3;
+   background-image: url("../images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg");
+   width: 100%;
+   height: 100%;
+}
+
+ .aboutMe-ctn {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border-right: 4px solid #ea1538;
+   padding-right: 10px;
+   
+}
+.myWork-ctn {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border-right: 4px solid #ea1538;
+   padding-right: 10px;
+   
+}
+.contactSection {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border-right: 4px solid #ea1538;
+   padding-right: 10px;
+  
+   
+}
+.projectText {
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #ea1538;
+}
+
+
+
+.footer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: row;
+   
+}
+
+
+ 
+
+   @media only screen and (max-width: 1000px) {
+
+   }
